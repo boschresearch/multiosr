@@ -1,0 +1,24 @@
+{
+  "target_train": {
+    "name": "diag_vib",
+    "params": {
+      "spec_yaml": "/home/asp2abt/workspace/multiosr/data/diagvibsix-configurations/color_mnist/uncorrelated/train_c.yaml",
+      "seed": 6937
+    },
+    "drop_combinations_cnt": 0
+  },
+  "target_val": {
+    "name": "diag_vib",
+    "params": {
+      "spec_yaml": "/home/asp2abt/workspace/multiosr/data/diagvibsix-configurations/color_mnist/uncorrelated/val_c.yaml",
+      "seed": 6938
+    }
+  },
+  "target_test": {
+    "name": "diag_vib",
+    "params": {
+      "spec_yaml": "/home/asp2abt/workspace/multiosr/data/diagvibsix-configurations/color_mnist/uncorrelated/test_c.yaml",
+      "seed": 6939
+    }
+  }
+}

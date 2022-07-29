@@ -1,0 +1,2 @@
+1. run `sh download_and_process.sh`
+2. For all JSON files under the configs/datasets/ut_zappos directory, adapt the values of 'dataset_dir' to match the local path to the repository.

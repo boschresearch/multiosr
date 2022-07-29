@@ -1,0 +1,26 @@
+{
+  "target_train": {
+    "name": "ut_zappos",
+    "params": {
+      "dataset_dir": "/home/asp2abt/workspace/multiosr/data/ut_zappos/ut-zappos-material",
+      "split_title": "osr",
+      "split": "train"
+    }
+  },
+  "target_val": {
+    "name": "ut_zappos",
+    "params": {
+      "dataset_dir": "/home/asp2abt/workspace/multiosr/data/ut_zappos/ut-zappos-material",
+      "split_title": "osr",
+      "split": "val"
+    }
+  },
+  "target_test": {
+    "name": "ut_zappos",
+    "params": {
+      "dataset_dir": "/home/asp2abt/workspace/multiosr/data/ut_zappos/ut-zappos-material",
+      "split_title": "osr",
+      "split": "test"
+    }
+  }
+}

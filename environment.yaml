@@ -1,0 +1,16 @@
+name: multiosr
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - h5py=3.6.0
+  - imageio
+  - matplotlib
+  - pytorch=1.7.1
+  - pytorch-gpu=1.7.1
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - seaborn=0.11.2
+  - torchvision=0.10.0
+  - tqdm

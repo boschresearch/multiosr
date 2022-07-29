@@ -1,0 +1,15 @@
+.idea
+__pycache__
+*.pkl
+*.npz
+cache
+*.swp
+outputs
+diag_vib_semi_correlated_12_36u_train_6937
+diag_vib_semi_correlated_12_36u_val_6938
+diag_vib_semi_correlated_12_36u_test_6939
+diag_vib_uncorrelated_train_6937
+diag_vib_uncorrelated_val_6938
+diag_vib_uncorrelated_test_6939
+archives
+data/ut_zappos/ut-zappos-material

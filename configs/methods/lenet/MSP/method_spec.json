@@ -1,0 +1,30 @@
+{
+  "model_spec": {
+    "name": "CNN",
+    "params": {
+      "args": {
+        "encoder_type": "lenet",
+        "encoder_ind": false,
+        "score_type": "softmax",
+        "latent_dim": 128
+      }
+    }
+  },
+  "learning_rule": {
+    "num_epochs": 400,
+    "term_gap_epochs": 50,
+    "optimizer": {
+      "name": "Adam",
+      "params": {
+        "lr": 0.001,
+        "weight_decay": 5e-05
+      }
+    },
+    "dataloader_spec": {
+      "params": {
+        "batch_size": 512,
+        "num_workers": 8
+      }
+    }
+  }
+}
